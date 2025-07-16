@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: django-otp-app
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn otp_registration.wsgi:application"
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: otp_registration.settings
+      - key: PYTHON_VERSION
+        value: 3.10
