@@ -26,11 +26,8 @@ SECRET_KEY = 'django-insecure-n#g*g(hs=&o8nmoeg@)3s09a%*l^mfckq#a0+r4&9rhw=@$^)a
 DEBUG = True
 
 
-ALLOWED_HOSTS = [
-    'check-ip-3.onrender.com',
-    'localhost',
-    '127.0.0.1',
-]
+ALLOWED_HOSTS = ['check-ip-3.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
